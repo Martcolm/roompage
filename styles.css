@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.overall{
+}
+    .one{
+        width: 100%;
+        display: flex;
+    }
+    .right-side{
+        border:1px solid navy;
+        width: 50%;
+        background: url(./images/desktop-image-hero-1.jpg) no-repeat center center/cover;
+    }
+   .navig{
+    border:1px solid brown;
+    width: 100%;
+   }
+    nav ul{
+    display: flex;
+    justify-content:flex;
+    align-items: baseline;
+    max-width: 100;
+    border:1px solid brown;
+    margin: 1.5rem;  
+}
+nav li{
+display: inline-block;
+ list-style: none;
+ width:100%;
+ border:1px solid violet;
+}
+nav li:nth-child(1){
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav a{
+text-decoration: none;
+}
+    .left-side{
+        border:1px solid brown;
+        width:50% ;
+    }
+    .contain{
+        padding: 80px;
+    }
+    .contain span{
+    font-weight: 900;
+    font-size: 3.5rem;
+    max-width: 300px;
+    width: 100% ;
+    word-spacing: .2rem;
+}
+.contain p {
+    margin: 1.5rem 0;
+}
+.ok{
+word-spacing: .75rem;
+}
+.ok img{
+color: black;
+margin: 0 1em;
+}
+    .container{
+        border: 1px solid blue;
+        display: flex;
+        justify-content: end;
+        align-items:flex-start;
+        width: 20%;
+        background-color: black;
+    }
+    .left{
+        padding: 29px;  
+     }
+     .left img {
+         width: 100%;
+         vertical-align: auto;
+     }
+     .left:hover{
+         background-color:gray;
+         color: gray;
+     }
+
+@media(max-width:640px){
+    @media(max-width:640px){
+        .one{
+           flex-direction: column;
+        }
+        .right-side{
+        width: 100%;
+        height: 70vh;
+        }
+        .left-side{
+           width: 100%;
+        }
+       }
+       nav{
+           display: none;
+       }
+       .container{
+           display: none;
+       }
+  
+    }
+/* section two  */
+.two{
+    width:100%;
+}
+.box{
+    border: 1px solid pink;
+    width: 100%;  
+    display: flex;
+  }
+  .text{
+    border: 1px solid black; 
+    width: 40%; 
+  } 
+  .text{
+      padding: 50px;
+      width: 40%;
+  }
+  .text span{
+      font-size: 1.3rem;
+      letter-spacing: .2em;
+  }
+  .text p{
+      font-size: 1rem;
+      margin-top:1em ;
+  }
+  .box img{
+  width: 30%;
+  } 
+  @media(max-width:675px)
+  {
+      .box{
+          flex-direction: column;
+      }
+      .box img{
+          width:100%;
+      }
+      .text{
+          width: 80%;
+      }
+      
+  }
