@@ -9,12 +9,10 @@
         display: flex;
     }
     .right-side{
-        border:1px solid navy;
         width: 50%;
         background: url(./images/desktop-image-hero-1.jpg) no-repeat center center/cover;
     }
    .navig{
-    border:1px solid brown;
     width: 100%;
    }
     nav ul{
@@ -22,14 +20,12 @@
     justify-content:flex;
     align-items: baseline;
     max-width: 100;
-    border:1px solid brown;
     margin: 1.5rem;  
 }
 nav li{
 display: inline-block;
  list-style: none;
  width:100%;
- border:1px solid violet;
 }
 nav li:nth-child(1){
     font-size: 1.5rem;
@@ -39,7 +35,6 @@ nav a{
 text-decoration: none;
 }
     .left-side{
-        border:1px solid brown;
         width:50% ;
     }
     .contain{
@@ -63,7 +58,6 @@ color: black;
 margin: 0 1em;
 }
     .container{
-        border: 1px solid blue;
         display: flex;
         justify-content: end;
         align-items:flex-start;
@@ -108,12 +102,10 @@ margin: 0 1em;
     width:100%;
 }
 .box{
-    border: 1px solid pink;
     width: 100%;  
     display: flex;
   }
   .text{
-    border: 1px solid black; 
     width: 40%; 
   } 
   .text{
